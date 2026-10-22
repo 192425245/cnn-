@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main(){printf("Padding begins with bit 1, followed by zeros.\n");
+printf("A full padding block is added when needed.\n");
+printf("This identifies the end of the original message.\n");
+printf("It avoids ambiguity during unpadding.\n");return 0;}
