@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main(){printf("ECB: error affects corresponding plaintext block only.\n");
+printf("CBC: error in C1 corrupts P1.\n");
+printf("The same error flips corresponding bits in P2.\n");
+printf("Blocks after P2 are unaffected.\n");return 0;}
