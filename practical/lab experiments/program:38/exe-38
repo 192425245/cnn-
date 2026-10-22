@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){int p[2][2],c[2][2];
+printf("Enter plaintext matrix: ");
+for(int i=0;i<2;i++)for(int j=0;j<2;j++)scanf("%d",&p[i][j]);
+printf("Enter ciphertext matrix: ");
+for(int i=0;i<2;i++)for(int j=0;j<2;j++)scanf("%d",&c[i][j]);
+printf("Recover K = C * inverse(P) mod 26 when inverse exists.\n");}
