@@ -1,0 +1,5 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{double n=log2(25*24*23*22*21);printf("Approx keys = 2^%.2f\n",n);
+printf("Unique keys depend on equivalent matrices\n");return 0;}
