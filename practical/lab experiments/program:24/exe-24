@@ -1,0 +1,4 @@
+#include <stdio.h>
+int main(){int p=59,q=61,n=3599,e=31,phi=(p-1)*(q-1),d=0;
+while((d*e)%phi!=1)d++;
+printf("n=%d phi=%d d=%d\n",n,phi,d);return 0;}
