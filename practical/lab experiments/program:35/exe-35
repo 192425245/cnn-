@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main(){char s[100];int k[100],n;scanf("%99s%d",s,&n);
+for(int i=0;i<n;i++)scanf("%d",&k[i]);
+for(int i=0;i<n;i++)putchar((s[i]-'A'+k[i])%26+'A');
+return 0;}
