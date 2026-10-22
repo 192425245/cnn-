@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main(){printf("Do not reuse the old RSA modulus.\n");
+printf("Changing only e and d is unsafe.\n");
+printf("An attacker knowing the old private key may recover the factors of n.\n");
+printf("Generate a new independent modulus and key pair.\n");return 0;}
