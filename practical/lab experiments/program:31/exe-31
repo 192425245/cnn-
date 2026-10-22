@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){printf("64-bit block: Rb = 0x1B\n");
+printf("128-bit block: Rb = 0x87\n");
+printf("L = E(K, zero block)\n");
+printf("K1 = leftshift(L), XOR Rb if MSB is 1\n");
+printf("K2 = leftshift(K1), XOR Rb if MSB is 1\n");return 0;}
