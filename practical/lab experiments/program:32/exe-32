@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){int m=25,k1=7,k2=11,p=23;
+printf("Message=%d\n",m);
+printf("Signature nonce 1 = %d\n",k1);
+printf("Signature nonce 2 = %d\n",k2);
+printf("Different nonces produce different DSA signatures.\n");return 0;}
