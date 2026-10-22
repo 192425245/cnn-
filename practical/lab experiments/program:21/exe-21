@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main(){printf("Padding: append 1 bit, then zero bits.\n");
+printf("Add padding even when the message fits a full block.\n");
+printf("This makes the padding convention unambiguous.\n");
+printf("Receiver removes padding after decryption.\n");return 0;}
