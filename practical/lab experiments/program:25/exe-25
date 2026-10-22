@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){int n=3599,m;
+printf("Enter plaintext block: ");scanf("%d",&m);
+printf("gcd(m,n) gives a possible factor of n.\n");
+printf("If gcd is between 1 and n, factor n to break RSA.\n");
+return 0;}
