@@ -1,0 +1,4 @@
+#include <stdio.h>
+int main(){int p[]={1,2,4},ctr=0,key=29;
+for(int i=0;i<3;i++)printf("%d ",p[i]^ctr++^key);
+return 0;}
