@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){printf("DES block size: 64 bits\n");
+printf("Effective key size: 56 bits\n");
+printf("Rounds: 16\n");
+printf("Encryption and decryption use reversed round keys.\n");
+printf("Use a DES library for actual encryption and decryption.\n");return 0;}
