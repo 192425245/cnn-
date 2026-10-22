@@ -1,0 +1,5 @@
+#include <stdio.h>
+long long pw(int a,int x,int q){long long r=1;while(x-- >0)r=r*a%q;return r;}
+int main(){int a,q,x,y;scanf("%d%d%d%d",&a,&q,&x,&y);
+printf("Alice=%lld Bob=%lld\n",pw(a,x,q),pw(a,y,q));
+printf("Shared keys: %lld %lld",pw(pw(a,y,q),x,q),pw(pw(a,x,q),y,q));}
