@@ -1,0 +1,4 @@
+#include <stdio.h>
+int main(){char s[]="KXJEYUREBEZWEHEWRYTUHEYFSKREHEGOYFIWTTTUOLKSYCAJPOBOTEIZONTXBYBNTGONE YCUZWRGDSONSXBOUYWRHEBAAHYUSEDQ";
+printf("Ciphertext:\n%s\n",s);
+printf("Use Playfair decryption with the original keyword matrix to recover plaintext.\n");return 0;}
