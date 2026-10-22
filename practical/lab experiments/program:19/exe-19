@@ -1,0 +1,4 @@
+#include <stdio.h>
+int main(){printf("CBC encryption: C1=E(P1 XOR IV)\n");
+printf("C2=E(P2 XOR C1)\n");printf("Use Triple DES for stronger security than DES.\n");
+printf("Security: 3DES; Performance: DES is faster.\n");return 0;}
