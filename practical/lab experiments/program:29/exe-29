@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main(){int rate=1024,capacity=1600-rate;
+printf("Rate = %d bits\nCapacity = %d bits\n",rate,capacity);
+printf("Capacity lanes = %d\n",capacity/64);
+printf("Nonzero lanes spread depends on the permutation.\n");return 0;}
