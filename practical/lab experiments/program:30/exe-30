@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){printf("T = MAC(K,X)\n");
+printf("Choose Y = X XOR T.\n");
+printf("CBC-MAC(X || Y) = E(K,E(K,X) XOR Y).\n");
+printf("Since E(K,X)=T, the final input is X.\n");
+printf("Therefore MAC(K,X || Y) = T.\n");return 0;}
