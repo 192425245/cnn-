@@ -1,0 +1,4 @@
+#include <stdio.h>
+int main(){int a,b;char s[100];scanf("%99s%d%d",s,&a,&b);
+for(int i=0;s[i];i++)s[i]=(a*(s[i]-'A')+b)%26+'A';
+printf("%s",s);return 0;}
