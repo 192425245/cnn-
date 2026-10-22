@@ -1,0 +1,4 @@
+#include <stdio.h>
+int main(){char s[]="MUSTSEEYOUOVERCADOGANWESTCOMINGATONCE";
+printf("Plaintext: %s\n",s);
+printf("Use the given 5x5 Playfair matrix to encrypt pairs.\n");return 0;}
